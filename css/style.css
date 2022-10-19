@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
-  background-color: hsl(218, 22%, 70%, 0.399);
+  background-color: hsl(218, 22%, 70%, 0.299);
 }
 
 .main {
@@ -129,7 +129,7 @@ body {
   }
   .card-container {
     width: 100%;
-    margin: 5rem;
+    margin: 5rem 3rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, minmax(20rem, 1fr));
