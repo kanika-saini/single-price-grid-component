@@ -14,7 +14,8 @@ body {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
-  background-color: hsl(218, 22%, 70%, 0.299);
+
+  background-color: hsl(204, 43%, 93%);
 }
 
 .main {
@@ -46,7 +47,7 @@ body {
 
   grid-row: 1/2;
   grid-column: 1/-1;
-  background-color: hsl(204, 43%, 93%);
+  background-color: #fff;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
