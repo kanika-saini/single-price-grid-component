@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
-  background-color: hsl(218, 22%, 70%, 0.499);
+  background-color: hsl(218, 22%, 70%, 0.399);
 }
 
 .main {
@@ -121,6 +121,9 @@ body {
 
 /* 600px */
 @media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 62.5%;
+  }
   .main {
     height: 100%;
   }
@@ -151,5 +154,9 @@ body {
   .btn {
     margin-top: 2rem;
     margin-bottom: -2rem;
+  }
+  .list {
+    line-height: 1.6;
+    font-size: 1.7;
   }
 }
